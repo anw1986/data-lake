@@ -2,7 +2,7 @@
 ---
 
 ### Introduction 
-In this project, we try to help one music streaming startup, Sparkify, to move their date warehouse to a data lake. Specifically, I bulid an ETF pipline to extract their data from **S3** and processes them using **Spark**, and loads the data into a new **S3** as a set of *dimensional tables*. This will allow their analytics team to continue finding insights in what songs their users are listening to.
+In this project, we try to help one music streaming startup, Sparkify, to move their date warehouse to a data lake. Specifically, I bulid an ETL pipline to extract their data from **S3** and processes them using **Spark**, and loads the data into a new **S3** as a set of *dimensional tables*. This will allow their analytics team to continue finding insights in what songs their users are listening to.
 
 ### Dataset 
 Datasets used in this project are provided in two public **S3** buckets. One bucket contains info about songs and artists, the second bucket has info concerning actions done by users (which song are listening, etc.. ). The objects contained in both buckets are JSON files.
